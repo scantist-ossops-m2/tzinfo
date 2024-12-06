@@ -125,7 +125,7 @@ class TCTimezone < Test::Unit::TestCase
   end
   
   def test_get_invalid
-    assert_raises(InvalidTimezoneIdentifier) { Timezone.get('../definitions/UTC') }
+    assert_raises(InvalidTimezoneIdentifier) { Timezone.get('../Definitions/UTC') }
   end
   
   def test_get_nil
